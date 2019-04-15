@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ZhuceActivity">
+    <include layout="@layout/rectche" />
+    <EditText
+
+        android:id="@+id/edit00"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="220dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:hint="请输入手机号"
+        android:background="@drawable/satedit"
+        />
+    <EditText
+        android:id="@+id/edit01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_below="@+id/edit00"
+        android:hint="请输入密码"
+        android:background="@drawable/satedit"
+        />
+    <EditText
+        android:id="@+id/edit02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_below="@+id/edit01"
+        android:hint="请确认密码"
+        android:background="@drawable/satedit"
+        />
+    <TextView
+        android:id="@+id/jxdl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="立即登录"
+        android:textColor="#f00"
+        android:layout_below="@+id/edit02"
+        android:layout_alignRight="@id/edit02"
+        android:layout_marginTop="15dp"/>
+    <Button
+        android:id="@+id/jc"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="注册"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        android:layout_below="@id/jxdl"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="#df00"
+        />
+
+
+
+</RelativeLayout>
